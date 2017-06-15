@@ -19,7 +19,11 @@ describe('in production', function() {
 
     it('contains value of the runtime environment', function() {
       runtimeEnv().should.be.an.instanceOf(Object).and.have.property('REACT_APP_USER', '🦄')
-    })
+    });
+
+    it('gets value if key specified', function() {
+      runtimeEnv('REACT_APP_USER').should.equal('🦄');
+    });
   })
 
   describe('when runtime env JSON cannot be parsed', function() {

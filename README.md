@@ -1,4 +1,4 @@
-Heroku JS Runtime Env
+JS Runtime Env
 =====================
 Use runtime environment variables in bundled/minified javascript apps.
 

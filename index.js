@@ -1,7 +1,19 @@
 // Capture environment as module variable to allow testing.
 var compileTimeEnv;
 try {
-  compileTimeEnv = process.env;
+  if (process.env.JS_CONFIGURATION_PROPERTIES) {
+    try {
+      compileTimeEnv = JSON.parse(process.env.JS_CONFIGURATION_PROPERTIES);
+    } catch (error) {
+      compileTimeEnv = {};
+      console.log(
+        '`process.env.JS_CONFIGURATION_PROPERTIES` was not a properly formatted JSON string. ' +
+        'Compile-time environment will be empty.'
+      );
+    }
+  } else {
+    compileTimeEnv = process.env;
+  }
 } catch(error) {
   compileTimeEnv = {};
   console.log(

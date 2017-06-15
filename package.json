@@ -20,10 +20,10 @@
     "runtime",
     "javascript"
   ],
-  "author": "Mars Hall",
+  "author": "Trevor Harwell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trevorharwell/js-runtime-envissues"
+    "url": "https://github.com/trevorharwell/js-runtime-env#issues"
   },
   "homepage": "https://github.com/trevorharwell/js-runtime-env#readme",
   "devDependencies": {

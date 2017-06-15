@@ -1,6 +1,6 @@
 {
   "name": "js-runtime-env",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Runtime env var support for static javascript apps",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mars/heroku-js-runtime-env.git"
+    "url": "git+https://github.com/trevorharwell/js-runtime-env"
   },
   "keywords": [
     "heroku",

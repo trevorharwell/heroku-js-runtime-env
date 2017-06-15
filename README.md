@@ -3,7 +3,7 @@ JS Runtime Env
 Use runtime environment variables in bundled/minified javascript apps.
 
 [![Build Status](https://travis-ci.org/trevorharwell/js-runtime-env.svg?branch=master)](https://travis-ci.org/trevorharwell/js-runtime-env)
-[![npm Module](https://img.shields.io/npm/v/trevorharwell/js-runtime-env.svg)](https://www.npmjs.com/package/js-runtime-env)
+[![npm Module](https://img.shields.io/npm/v/js-runtime-env.svg)](https://www.npmjs.com/package/js-runtime-env)
 
 Usage
 -----
